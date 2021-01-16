@@ -161,35 +161,61 @@ i[data-icon="arrow"]::before {
  @media screen and (max-width:920px) {
 
     .box {
-        width: 85%;
+        width: 90%;
         height: 30rem;
 
-        padding: 0 2rem;
+        padding: 0 1.2rem;
+        margin-top: 4rem;
         flex-direction: column;
         font-size: 12px;
     }
 
     .img-box-container {
-        width: 100%;
+        width: 270px;
+        height: 290px;
         position: absolute;
-        top: -10rem;
+        top: -110px;
+        
     }
 
     .img-pattern {
-        background: url(../images/bg-pattern-mobile.svg) top 30rem left  no-repeat;
+        background: url(../images/bg-pattern-mobile.svg) 70% 60%  no-repeat;
+        /* height: 200%; */
+        position: absolute;
     }
 
     .img-woman {
-        display: none;
-        background: url(../images/illustration-woman-online-mobile.svg) -2rem 3rem   no-repeat;
+        /* display: none; */
+        background: url(../images/illustration-woman-online-mobile.svg) 20% 0%   no-repeat;
+        /* height: 200%; */
+        position: absolute;
     }
 
     .img-box {
         display: none;
+        margin-top:  1rem;
+        margin-bottom: 0.5rem;
     }
 
     .title {
+        text-align: center;
         
+    }
+
+    .faq-box-container {
+        /* display: none; */
+        margin-top: 70px;
+        /* height: 10%; */
+        width: 100%;
+        padding: 0;
+    }
+    .accordion {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .accordion-item-header i{
+        right: 1rem;
     }
 
   
